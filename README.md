@@ -1,3 +1,4 @@
-# `@swc/core-win32-x64-msvc`
+# @swc/types
 
-This is the **x86_64-pc-windows-msvc** binary for `@swc/core`
+Typings for `@swc/core` APIs. This is a separate package because SWC is used by various tools but not all of them want to depend on `@swc/core`.
+This package is very cheap, so feel free to depend on this.
